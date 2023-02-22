@@ -43,6 +43,9 @@ body {
     font-family: 'Zilla Slab', serif;
     font-weight: 400;
 }
+ul, ol {
+    margin-left: 30px;
+}
 .container {
     margin: 0 auto;
     padding: 0 20px;
@@ -51,10 +54,13 @@ body {
 .header {
     margin-bottom: 50px;
 }
-.menu {
+.menu-wrapper {
     position: fixed;
+    width: 100%;
     left: 0;
     top: 0;
+}
+.menu {
     display: flex;
     align-items: center;
     justify-content: right;
